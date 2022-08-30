@@ -1,0 +1,15 @@
+.works-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 80px;
+}
+.works-container h1 {
+  align-self: center;
+}
+.work-list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}

@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: transparent;
+  padding: 20px 0;
+  width: 80%;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar ul {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+}
+.navbar ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar ul li a:hover {
+  text-decoration: none;
+  color: rgb(12, 124, 59);
+}

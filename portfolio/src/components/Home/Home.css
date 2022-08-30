@@ -1,0 +1,40 @@
+.home {
+  height: 100vh;
+  width: 100%;
+}
+.home::after {
+  content: '';
+  background-image: url('/public/img/home-bg-2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.content {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+.content h1 {
+  font-size: 85px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.content h3 {
+  font-size: 58px;
+  font-weight: bold;
+  color: #116c32;
+}
+.content h2 {
+  font-stretch: narrower;
+  font-size: 50px;
+  font-weight: bold;
+  color: aliceblue;
+}
