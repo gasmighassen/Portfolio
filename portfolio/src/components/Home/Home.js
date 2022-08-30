@@ -3,7 +3,7 @@ import './Home.css'
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="content">
         <h3>I'm a</h3>
         <h1>FULLSTACK</h1>

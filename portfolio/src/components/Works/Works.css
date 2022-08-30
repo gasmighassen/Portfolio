@@ -3,13 +3,17 @@
   flex-direction: column;
   height: 100vh;
   margin-top: 80px;
+  position:relative;
+  padding-top: 200px;
+  
 }
 .works-container h1 {
   align-self: center;
 }
 .work-list {
-  width: 80%;
+  width: 70%;
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: 0 auto;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import { HashLink } from "react-router-hash-link"
 
 function Navbar() {
   return (
@@ -8,16 +9,16 @@ function Navbar() {
         <p>Gm portfolio</p>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <HashLink to="#home" smooth>Home</HashLink>
           </li>
           <li>
-            <a href="#about">About</a>
+            <HashLink to="#about" smooth>About</HashLink>
           </li>
           <li>
-            <a href="#works">Works</a>
+            <HashLink to="#work" smooth>Works</HashLink>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <HashLink to="#skills" smooth>Skills</HashLink>
           </li>
         </ul>
         <p>Login</p>

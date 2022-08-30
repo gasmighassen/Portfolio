@@ -9,19 +9,19 @@ function App() {
   return (
     <>
       <Navbar />
-      <div id="home">
+     
         <Home />
-      </div>
-      <div id="about">
+     
+      
         <About />
-      </div>
-      <div id="works">
+      
+     
         <Works />
-      </div>
+     
 
-      <div id="skills">
+  
         <Skills />
-      </div>
+     
     </>
   )
 }
