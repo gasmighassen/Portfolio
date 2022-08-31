@@ -4,9 +4,10 @@ import Home from '../Home/Home'
 import About from '../About/About'
 import Skills from '../Skills/Skills'
 import Works from '../Works/Works'
+import './Main.css'
 function Main() {
   return (
-    <div>
+    <div className="container-main">
       <Navbar />
 
       <Home />
