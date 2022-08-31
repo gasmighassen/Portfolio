@@ -3,9 +3,8 @@
   flex-direction: column;
   height: 100vh;
   margin-top: 80px;
-  position:relative;
+  position: relative;
   padding-top: 200px;
-  
 }
 .works-container h1 {
   align-self: center;
@@ -16,4 +15,10 @@
   align-items: flex-start;
   flex-wrap: wrap;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 2560px) {
+  .works-container {
+    margin-top: 20%;
+  }
 }

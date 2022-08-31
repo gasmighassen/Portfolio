@@ -6,9 +6,9 @@ import { useSelector } from 'react-redux'
 function Works() {
   const project = useSelector((state) => state.project)
   return (
-    <div className="works-container" id='work'>
+    <div className="works-container">
       <h1>Works</h1>
-      <div className="work-list">
+      <div className="work-list" id="work">
         {project.project.map((project) => (
           <WorkCard project={project} />
         ))}

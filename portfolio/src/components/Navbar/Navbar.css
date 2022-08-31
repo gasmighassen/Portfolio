@@ -11,7 +11,7 @@
   z-index: 10;
 }
 .navbar ul {
-  width: 35%;
+  width: 45%;
   display: flex;
   align-items: center;
   justify-content: space-between !important;
@@ -27,5 +27,10 @@
 }
 .navbar ul li a:hover {
   text-decoration: none;
-  color: rgb(12, 124, 59);
+  color: #0d6efd;
+}
+.myWork {
+  border: 1px #0d6efd solid;
+  border-radius: 5px;
+  padding: 6px;
 }

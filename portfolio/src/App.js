@@ -1,27 +1,19 @@
 import './App.css'
-import Home from './components/Home/Home'
-import About from './components/About/About'
-import Skills from './components/Skills/Skills'
-import Works from './components/Works/Works'
-import Navbar from './components/Navbar/Navbar'
+import Main from './components/main/Main'
+import React from 'react'
+import Dashboard from './components/dashboard/Dashboard'
+import { Routes, Route } from 'react-router-dom'
+import PrivateRoute from './components/privateRoot/PrivateRoot'
 
 function App() {
   return (
     <>
-      <Navbar />
-     
-        <Home />
-     
-      
-        <About />
-      
-     
-        <Works />
-     
-
-  
-        <Skills />
-     
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route element={<PrivateRoute />}>
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Route>
+      </Routes>
     </>
   )
 }

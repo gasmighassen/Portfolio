@@ -1,0 +1,13 @@
+.Skills {
+  position: relative;
+  margin: 20% auto 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 2560px) {
+  .Skills {
+    top: 370px;
+  }
+}
