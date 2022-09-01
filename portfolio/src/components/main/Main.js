@@ -5,6 +5,7 @@ import About from '../About/About'
 import Skills from '../Skills/Skills'
 import Works from '../Works/Works'
 import './Main.css'
+import Footer from '../Footer/Footer'
 function Main() {
   return (
     <div className="container-main">
@@ -17,6 +18,7 @@ function Main() {
       <Works />
 
       <Skills />
+      <Footer />
     </div>
   )
 }

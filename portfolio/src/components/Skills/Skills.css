@@ -1,9 +1,46 @@
 .Skills {
   position: relative;
   margin: 20% auto 0 auto;
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skill {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  position: relative;
+  left: -12px;
+}
+.skill-progression {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.html {
+  width: 90%;
+  background-color: #231ce3;
+}
+.css {
+  width: 80%;
+  background-color: #2196f3;
+}
+.js {
+  width: 65%;
+  background-color: #231ce3;
+}
+.php {
+  width: 60%;
+  background-color: #2196f3;
 }
 
 @media screen and (max-width: 2560px) {

@@ -7,12 +7,25 @@ function Skills() {
       <div className="skills-header">
         <h1>Skills</h1>
         <div className="skill-progression">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            placeat eveniet optio, id nostrum molestiae, ducimus reprehenderit
-            magnam adipisci deleniti totam enim. Delectus a mollitia eligendi,
-            vero consequatur doloremque odit?
-          </p>
+          <p>HTML</p>
+          <div class="container">
+            <div class="skill html">90%</div>
+          </div>
+
+          <p>CSS</p>
+          <div class="container">
+            <div class="skill css">80%</div>
+          </div>
+
+          <p>JavaScript</p>
+          <div class="container">
+            <div class="skill js">65%</div>
+          </div>
+
+          <p>PHP</p>
+          <div class="container">
+            <div class="skill php">60%</div>
+          </div>
         </div>
       </div>
     </div>
